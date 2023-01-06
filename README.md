@@ -13,7 +13,7 @@
 
 # 📖 My-Enumarable <a name="about-project"></a>
 
-In this project, we achieved the following
+In this project, we achieved the following;
 
 - Created class MyList inside my_list.rb file.
 - Created module MyEnumerable inside of enumerable.rb file.
@@ -26,9 +26,6 @@ In this project, we achieved the following
 ## 🛠 Built With <a name="built-with"></a>
 
 - **Ruby**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 
