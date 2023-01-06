@@ -15,12 +15,12 @@
 
 In this project, we achieved the following
 
-Created class MyList inside my_list.rb file.
-Created module MyEnumerable inside of enumerable.rb file.
-Included or used MyEnumerable module inside of the MyList class.
-Implemented methods all?, any?, and filter? methods within the MyEnumerable module.
-The module and the class are each in their independent .rb files.
-Verified the solution
+- Created class MyList inside my_list.rb file.
+- Created module MyEnumerable inside of enumerable.rb file.
+- Included or used MyEnumerable module inside of the MyList class.
+- Implemented methods all?, any?, and filter? methods within the MyEnumerable module.
+- The module and the class are each in their independent .rb files.
+- Verified the solution
 
 
 ## 🛠 Built With <a name="built-with"></a>
