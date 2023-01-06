@@ -1,67 +1,70 @@
-# Ruby Course
+# 📗 Table of Contents
 
-If you are not familiar with linters and GitHub Actions, read [root level README](../README.md).
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+- [💻 Getting Started](#getting-started)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-## Set-up Rubocop GitHub Action
+# 📖 My-Enumarable <a name="about-project"></a>
 
-[Rubocop](https://www.rubocop.org/) is a Ruby static code analyzer (a.k.a. linter) and code formatter. It will enforce many of the guidelines outlined in the community [Ruby Style Guide](https://rubystyle.guide/).
+In this project, we achieved the following;
 
-This GitHub Action is going to run [Rubocop](https://docs.rubocop.org/en/stable/) to help you find style issues.
+- Created class MyList inside my_list.rb file.
+- Created module MyEnumerable inside of enumerable.rb file.
+- Included or used MyEnumerable module inside of the MyList class.
+- Implemented methods all?, any?, and filter? methods within the MyEnumerable module.
+- The module and the class are each in their independent .rb files.
+- Verified the solution
 
-Please do the following **steps in this order**:
+## 🛠 Built With <a name="built-with"></a>
 
-1. In the first commit of your feature branch create a `.github/workflows` folder and add a copy of [`.github/workflows/linters.yml`](.github/workflows/linters.yml) to that folder.
-    - **Remember** to use the file linked above
-    - **Remember** that `.github` folder starts with a dot.
-2. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-3. When you open your first pull request you should see the result of the GitHub Actions:
+- **Ruby**
 
-![gh actions checks](../assets/images/gh-actions-rubocop-linters-checks.png)
+<!-- GETTING STARTED -->
 
-Click on the `Details` link to see the full output and the errors that need to be fixed:
+## 💻 Getting Started <a name="getting-started"></a>
 
-![gh actions failing checks](../assets/images/gh-actions-rubocop-failing-checks.png)
+To get a local copy up and running follow these simple example steps.
 
-## [OPTIONAL]Set-up RSpec GitHub Action
+- copy this link <https://github.com/blase147/My-Enumerable.git>
+- get the directory that you want to clone the repository.
+- open the command prompt in this directory.
+- write git clone <https://github.com/blase147/My-Enumerable.git>
+- go to the repository folder in your command prompt.
+- run bundle install.
 
-You can run your tests with GitHub Actions to ensure that they are passing before merging a PR.
+<!-- AUTHORS -->
 
-To use the GitHub Action to run your tests, please do the following **steps in this order**:
+## 👥 Authors <a name="authors"></a>
 
-1. Add a copy of [`.github/workflows/tests.yml`](.github/workflows/tests.yml) to your `.github/workflows` folder.
-    - **Remember** to use the file linked above
-    - Do not modify or delete the [`.github/workflows/linters.yml`](.github/workflows/linters.yml) file that should already be in that folder.
-    - RSpec by default will try to run any file ending in `_spec.rb` inside the `spec` folder. Make sure to follow this convention for your tests files so `rspec` can run your spec files.
-    - You can modify the [`.github/workflows/tests.yml`](.github/workflows/tests.yml) file to better fit your custom needs.
-3. When you open your pull request you should see the result of the GitHub Action:
+👤 **Chukwuma Paul Mosanya**
 
-![gh actions checks](../assets/images/gh-actions-rspec-tests-checks.png)
+[GitHub](https://github.com/blase147) | [Twitter](https://twitter.com/ChukwumaMosanya) | [LinkedIn](https://www.linkedin.com/in/chukwuma-mosanya)
 
-Click on the `Details` link of the test action to check the results of your tests.
+👤 **Olaoye Abayomi**
 
-## Set-up linters in your local env
+[@GitHub](https://github.com/AbayomiOlaoye) | [@Twitter](https://twitter.com/olaoyeelijah) | [LinkedIn](https://linkedin.com/in/oluwatoyinolaoye)
 
-### [RuboCop](https://docs.rubocop.org/en/stable/)
+## 🤝 Contributing <a name="contributing"></a>
 
-1. Add this line to the `Gemfile`
-    ```
-    gem 'rubocop', '>= 1.0', '< 2.0'
-    ```
-    *not sure how to use Gemfile? Read [this](https://bundler.io/v1.15/guides/bundler_setup.html).*
-2. Run `bundle install`.
-3. Copy [.rubocop.yml](./.rubocop.yml) to the root directory of your project
-4. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-5. Run `rubocop`.
-6. Fix linter errors.
-7. **IMPORTANT NOTE**: feel free to research [auto-correct options for Rubocop](https://rubocop.readthedocs.io/en/latest/auto_correct/) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
+Contributions, issues, and feature requests are welcome!
 
-## Troubleshooting
+Feel free to check the [issues page](../../issues/).
 
-- While using Colorize gem, if you are facing errors with Rspec related to 
-    ```bash
-    LoadError:
-    cannot load such file -- colorize
-    ```
-    please remove ```--deployment``` from line no. [26](https://github.com/shubham14p3/Ruby-capstone-project/blob/ca86784cc88bea7c933e329c0953f07e21bcf6ca/.github/workflows/tests.yml#L16) of test.yml file.
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project 😄, a star would be a nice gift from you :astronaut:
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+A big thanks to the [Microverse Team](https://www.microverse.org)
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
