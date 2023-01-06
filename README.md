@@ -4,12 +4,10 @@
   - [🛠 Built With](#built-with)
 - [💻 Getting Started](#getting-started)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
-
 
 # 📖 My-Enumarable <a name="about-project"></a>
 
@@ -22,7 +20,6 @@ In this project, we achieved the following;
 - The module and the class are each in their independent .rb files.
 - Verified the solution
 
-
 ## 🛠 Built With <a name="built-with"></a>
 
 - **Ruby**
@@ -33,10 +30,10 @@ In this project, we achieved the following;
 
 To get a local copy up and running follow these simple example steps.
 
-- copy this link https://github.com/blase147/My-Enumerable.git
+- copy this link <https://github.com/blase147/My-Enumerable.git>
 - get the directory that you want to clone the repository.
 - open the command prompt in this directory.
-- write git clone https://github.com/blase147/My-Enumerable.git
+- write git clone <https://github.com/blase147/My-Enumerable.git>
 - go to the repository folder in your command prompt.
 - run bundle install.
 
@@ -57,9 +54,11 @@ To get a local copy up and running follow these simple example steps.
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project 😄, a star would be a nice gift from you :astronaut:
+
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 A big thanks to the [Microverse Team](https://www.microverse.org)
